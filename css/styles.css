@@ -548,7 +548,6 @@ body {
 
 .f-container {
   display: flex;
-  justify-content: start;
   width: 1200px;
   align-items: baseline;
   margin-left: auto;
@@ -559,16 +558,14 @@ body {
 
 .foot-container-left {
   margin-right: 70px;
-  width: 231px;
 }
 
 .foot-container-middle {
   margin-right: 93px;
-  width: 206px;
 }
 
 .foot-container-right {
-  width: 570px;
+  margin-left: auto;
 }
 
 .footer-socials {
