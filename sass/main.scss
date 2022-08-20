@@ -1,8 +1,4 @@
-@import './utils/hidden';
-@import './utils/list-item';
-@import './utils/vars';
-@import './base/reset';
-@import './base/general';
-@import './utils/mixins';
-@import './layouts/features';
-@import './layouts/clients';
+@import './utils/utils';
+@import './base/base';
+@import './components/components';
+@import './layouts/layouts';

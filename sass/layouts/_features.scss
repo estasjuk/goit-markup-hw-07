@@ -1,26 +1,24 @@
 .feature {
-  display: flex;
-  gap: 30px;
-}
+  @include flex(flex, null, null, 30px);
 
-.feature__item {
-  flex-basis: calc((100% - 90px) / 4);
-}
+  &__title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    @include fonts(700, 14px, 1.14, 0.03em, var(--title-color), null);
+  }
 
-.feature__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-}
+  &__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 
-.feature__text {
-  color: var(--text-color);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  &__icon {
+    @include flex(flex, center, center, null);
+    margin-bottom: 30px;
+    @include form(270px, 120px, 4px);
+    background-color: var(--secondary-background-color);
+  }
+
+  &__text {
+    @include fonts(null, 14px, 1.71, 0.03em, var(--text-color), null);
+  }
 }
