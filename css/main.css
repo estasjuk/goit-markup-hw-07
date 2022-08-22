@@ -239,14 +239,20 @@ body {
   color: var(--main-logo);
 }
 .logo--black {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   color: var(--logo-header);
 }
 .logo--white {
-  margin-bottom: 20px;
   color: var(--logo-footer);
+}
+
+.logo-head {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo-foot {
+  margin-bottom: 20px;
 }
 
 .btn {

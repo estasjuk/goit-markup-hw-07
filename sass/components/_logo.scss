@@ -5,14 +5,20 @@
   @include fonts(700, 26px, 1.19, 0.03em, var(--main-logo), null);
 
   &--black {
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     color: var(--logo-header);
   }
 
   &--white {
-    margin-bottom: 20px;
     color: var(--logo-footer);
   }
+}
+
+.logo-head {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo-foot {
+  margin-bottom: 20px;
 }
